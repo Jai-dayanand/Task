@@ -59,7 +59,6 @@ form.addEventListener("submit", function (event) {
     isValid = false;
   }
 
-
     alert("Form submitted successfully!");
     form.reset();
   }
