@@ -59,16 +59,6 @@ form.addEventListener("submit", function (event) {
     isValid = false;
   }
 
-//   if (isValid) {
-//     const formData = {
-//       name: nameInput.value.trim(),
-//       email: emailInput.value.trim(),
-//       mobile: mobileInput.value.trim(),
-//       gender: document.querySelector('input[name="gender"]:checked').value,
-//       dob: dobInput.value.trim(),
-//       address: addressInput.value.trim(),
-//     };
-//     console.log(JSON.stringify(formData));
 
     alert("Form submitted successfully!");
     form.reset();
