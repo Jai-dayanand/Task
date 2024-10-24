@@ -69,7 +69,6 @@ form.addEventListener("submit", function (event) {
       address: addressInput.value.trim(),
     };
     console.log(JSON.stringify(formData));
-
     alert("Form submitted successfully!");
     form.reset();
   }
